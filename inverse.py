@@ -1,0 +1,10 @@
+import numpy as np
+print("enetr the element")
+a=input("enter thwe frist elemnt")
+b=input("enter the second element")
+c=input("enetr the third elemt")
+d=input("enter the fourth element")
+s=np.array([[int(a),int(b)],[int (c),int (d)]])
+print(s)
+inverse=np.linalg.inv(s)
+print(inverse)

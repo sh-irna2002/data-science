@@ -1,0 +1,10 @@
+import numpy as np
+print("Enter elements:")
+a=input("Enter first element:")
+b=input("Enter second element :")
+c=input("Enter  third element :")
+d=input("Enter  fourth element :")
+s=np.array([[int (a),int (b)],[int (c),int (d)]])
+print(s)
+det=np.linalg.det(s)
+print(det)
